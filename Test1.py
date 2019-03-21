@@ -1,11 +1,5 @@
 # 21-Mar-2019
-prices = [10, 20, 30, 40]
-total = 0
-for i in prices:
-    total = total + i
-print (f"total is {total}")
-
-total1 = sum(prices)
-print (f"new total1 is {total1}")
-
-print ("New ToTAL = {}, {}".format(total, total1 ))
+for i in range(2):
+    for j in range(5,0,-3):
+        print ("X" * j)
+print ("X" * (i+1))
